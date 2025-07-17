@@ -1,0 +1,179 @@
+.bag-items{
+    border: 1px solid black;
+    display: flex;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+  
+    width: 115%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 12px 13px 12px;
+ 
+    
+}
+.bag_text{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.bags h1{
+   margin: auto;
+   margin-top: 20px;
+}
+
+.bag_image{
+    height: 148px;
+    width: 112px;
+}
+
+
+.bag_image img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bag_company_name{
+    line-height: 16px;
+  
+    font-family: Assistant, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #282c3f;
+}
+.bag_product_name{
+    margin-bottom: 25px;
+    font-family: Assistant, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.bag_original_price{
+    font-size: 14px;
+    font-family: Assistant, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.bag_price{
+margin-top: 86px;
+ width: 95%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.bag_final_price{
+   color: #94969f;
+   font-size: 14px;
+   font-family: Assistant, Helvetica, Arial, sans-serif;
+   text-decoration: line-through;
+}
+
+.bag_discount{
+    font-family: Assistant, Helvetica, Arial, sans-serif;
+    color: #f16565;
+    font-size: 14px;
+}
+
+
+.close-button{
+   justify-self: flex-end;
+   position: relative;
+   height: 20px;
+   width: 15px;
+   margin-left: auto;
+   background-color: white;
+   border: none;
+   
+}
+
+.bag-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.bags{
+    margin-bottom: 312px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.price_to_pay{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:7%;
+}
+
+.bag_border{
+    width: 120%;
+border: 1px solid #eaeaec;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.bag_heading{
+    margin: auto;
+}
+.bag_total_price, .bag_discount_price, .cov{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #282c3f;
+    font-family: Assistant, Helvetica, Arial, sans-serif;
+    line-height:16px;
+    display: flex;
+    justify-content: space-between;
+}
+.bag_finally_price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+    color: #282c3f;
+    font-family: Assistant, Helvetica, Arial, sans-serif;
+    line-height:16px;
+
+}
+
+.left_align{
+    margin-left: auto;
+}
+
+.pay_button{
+    font-size: 11px;
+    margin-top: 10px;
+     font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    height: 30px;
+    width: 100%;
+    color: cornsilk;
+    background-color: black;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.pay_button:active{
+    font-size: 10px;
+    padding: 3px 12px;
+    
+}
+
+
+
+
+.pay_button:hover{
+    color: black;
+    background-color: cornsilk;
+}
+
