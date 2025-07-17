@@ -26,7 +26,13 @@ function additem(id)
 
 function displayicon(){
 
-    document.querySelector(".displayicon").innerHTML=JSON.parse(localStorage.getItem('bagItems')).length;
+    document.querySelector(".displayicon").innerHTML=JSON.parse(localStorage.getItem('bagItems'))?JSON.parse(localStorage.getItem('bagItems')):'0';
+    if(!JSON.parse(localStorage.getItem('bagItems')))
+    {
+         document.querySelector(".displayicon").style.visibility="hidden";
+        return;
+    }
+
     document.querySelector(".displayicon").style.visibility=JSON.parse(localStorage.getItem('bagItems')).length?"visible" :"hidden";
 }
 
@@ -73,5 +79,8 @@ document.querySelector(".items-container").innerHTML=my_text;
 
 
    
+
+   
+
 
    
