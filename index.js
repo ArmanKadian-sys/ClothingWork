@@ -26,7 +26,7 @@ function additem(id)
 
 function displayicon(){
 
-    document.querySelector(".displayicon").innerHTML=JSON.parse(localStorage.getItem('bagItems'))?JSON.parse(localStorage.getItem('bagItems')):'0';
+    document.querySelector(".displayicon").innerHTML=JSON.parse(localStorage.getItem('bagItems'))?JSON.parse(localStorage.getItem('bagItems')).length:0;
     if(!JSON.parse(localStorage.getItem('bagItems')))
     {
          document.querySelector(".displayicon").style.visibility="hidden";
